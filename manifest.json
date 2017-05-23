@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Tag Nesing Checker",
+    "description" : "Allows you to select an tab by right clicking it and then displays how nested the tab is by counting Parent tags",
+     "background": {
+         "scripts" : ["background.js"]
+     },
+     "version": "1.0",
+     "icons" : {
+         "64" : "icon.png",
+         "32" : "icon.png",
+         "16" : "icon.png",
+         "128" : "icon.png"
+     },
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js", "elementGrabber.js"]
+    }
+    ],
+     "permissions": [
+         "contextMenus"
+     ]
+}
