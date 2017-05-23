@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Tag Nesing Checker",
+    "name": "Div Tracer",
     "description" : "Allows you to select an tab by right clicking it and then displays how nested the tab is by counting Parent tags",
      "background": {
          "scripts" : ["background.js"]
