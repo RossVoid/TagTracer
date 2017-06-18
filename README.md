@@ -1,4 +1,4 @@
-"# DivTracer" 
+# Tag Tracer
 
 Allows you to select an tab by right clicking it and then displays how nested the tab is by counting Parent tags.
 Also allows you to delete the element you right click on.
